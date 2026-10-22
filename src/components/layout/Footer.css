@@ -1,0 +1,101 @@
+/* ---- Footer ---- */
+.footer {
+  background-color: var(--navy-900);
+  color: var(--white);
+}
+
+.footer__container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: var(--sp-12);
+  padding-block: var(--sp-12);
+}
+
+.footer__left .logo__text {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: var(--fs-display);
+  letter-spacing: var(--tracking-tight);
+  color: var(--white);
+}
+
+.footer__left .logo__accent {
+  color: var(--teal-500);
+}
+
+.footer__description {
+  color: var(--slate-300);
+  font-size: var(--fs-sm);
+  line-height: var(--lh-snug);
+  max-width: 300px;
+  margin-top: var(--sp-4);
+}
+
+.footer__heading {
+  font-weight: 700;
+  font-size: var(--fs-sm);
+  letter-spacing: -0.01em;
+  margin-bottom: var(--sp-4);
+  color: var(--white);
+}
+
+.footer__nav {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-3);
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer__nav li a {
+  color: var(--slate-300);
+  font-size: var(--fs-xs);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  transition: color var(--dur-fast) var(--ease-out);
+}
+
+.footer__nav li a:hover,
+.footer__nav li a:focus-visible {
+  color: var(--teal-400);
+}
+
+.footer__contact-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-3);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  color: var(--slate-300);
+  font-size: var(--fs-sm);
+}
+
+.footer__contact-list .footer__contact-label {
+  color: var(--slate-300);
+  font-size: var(--fs-xs);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: var(--sp-1);
+}
+
+.footer__contact-list a {
+  color: var(--white);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.footer__bottom {
+  padding-block: var(--sp-6);
+  border-top: 1px solid var(--color-line-strong);
+  color: var(--slate-300);
+  font-size: var(--fs-xs);
+  text-align: center;
+}
+
+.footer__bottom a {
+  color: var(--teal-400);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}

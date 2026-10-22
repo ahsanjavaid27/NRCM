@@ -1,0 +1,38 @@
+/* ---- Card ---- */
+.card {
+  border-radius: var(--r-md);
+  border: 1px solid var(--color-line);
+  background: var(--white);
+  box-shadow: var(--sh-xs);
+}
+
+.card--outline {
+  background: transparent;
+  box-shadow: none;
+}
+
+.card--soft {
+  background-color: var(--slate-50);
+}
+
+.card--inverse {
+  background-color: var(--navy-850);
+  border-color: rgba(255, 255, 255, 0.08);
+  color: var(--white);
+}
+
+.card--inverse a,
+.card--inverse p,
+.card--inverse h2,
+.card--inverse h3,
+.card--inverse h4 {
+  color: var(--white);
+}
+
+.card--padded {
+  padding: var(--sp-8);
+}
+
+.card + .card {
+  margin-top: var(--sp-6);
+}

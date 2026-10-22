@@ -1,0 +1,25 @@
+/* ---- Section heading ---- */
+.section-heading {
+  max-width: var(--container-narrow);
+  margin: 0 auto var(--sp-16);
+}
+
+.section-heading--center {
+  text-align: center;
+}
+
+.section-heading__eyebrow {
+  display: inline-block;
+  margin-bottom: var(--sp-3);
+  color: var(--teal-600);
+}
+
+.section-heading .h2 {
+  margin-bottom: var(--sp-4);
+  color: var(--navy-950);
+}
+
+.section-heading .lead {
+  margin-bottom: 0;
+  color: var(--color-ink-muted);
+}

@@ -1,0 +1,39 @@
+/* ---- NotFound page ---- */
+.not-found-page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--color-bg-soft);
+}
+
+.not-found {
+  text-align: center;
+  padding: var(--sp-20) var(--gutter);
+}
+
+.not-found__code {
+  font-size: clamp(4rem, 10vw, 8rem);
+  font-weight: 800;
+  color: var(--navy-850);
+  margin: 0;
+  letter-spacing: var(--tracking-tight);
+}
+
+.not-found__title {
+  font-size: var(--fs-h2);
+  margin: var(--sp-4) 0 var(--sp-6);
+  color: var(--navy-700);
+}
+
+.not-found__desc {
+  font-size: var(--fs-lead);
+  color: var(--color-ink-muted);
+  max-width: 480px;
+  margin: 0 auto var(--sp-10);
+  line-height: var(--lh-normal);
+}
+
+.not-found__cta {
+  display: inline-flex;
+}

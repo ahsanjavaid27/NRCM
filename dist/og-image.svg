@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="NexaRCM - Medical Billing and Revenue Cycle Management">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b1220"/>
+      <stop offset="55%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#131c31"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#14b8a6"/>
+      <stop offset="100%" stop-color="#2dd4bf"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <g opacity="0.14" stroke="#2dd4bf" fill="none" stroke-width="1">
+    <path d="M0 470 L180 430 L360 452 L540 392 L720 410 L900 336 L1200 372"/>
+    <path d="M0 522 L180 486 L360 508 L540 448 L720 466 L900 392 L1200 428"/>
+  </g>
+  <g fill="#2dd4bf" opacity="0.35">
+    <circle cx="180" cy="430" r="5"/>
+    <circle cx="360" cy="452" r="5"/>
+    <circle cx="540" cy="392" r="5"/>
+    <circle cx="720" cy="410" r="5"/>
+    <circle cx="900" cy="336" r="5"/>
+  </g>
+
+  <g transform="translate(80, 150)">
+    <rect width="56" height="56" rx="12" fill="url(#accent)"/>
+    <path d="M14 22h28v4H14z" fill="#0b1220"/>
+    <path d="M20 32h16v4H20z" fill="#0b1220"/>
+    <circle cx="28" cy="14" r="4" fill="#0b1220"/>
+  </g>
+
+  <text x="80" y="300" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="62" font-weight="800" fill="#ffffff" letter-spacing="-1.5">
+    NexaRCM
+  </text>
+  <text x="80" y="368" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="40" font-weight="700" fill="#5eead4" letter-spacing="-0.8">
+    Medical Billing &amp; Revenue Cycle Management
+  </text>
+  <text x="80" y="428" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="24" font-weight="400" fill="#cbd5e1">
+    Precision revenue cycle support for US healthcare providers.
+  </text>
+
+  <rect x="80" y="486" width="180" height="46" rx="8" fill="url(#accent)"/>
+  <text x="170" y="516" text-anchor="middle" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#0b1220">
+    Request a Quote
+  </text>
+</svg>

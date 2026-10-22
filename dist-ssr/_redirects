@@ -1,0 +1,9 @@
+/*
+  SPA fallback for Netlify.
+  Every route is rewritten to index.html so that client-side routing
+  (react-router-dom) works when a user opens a nested URL directly.
+
+  For Vercel, add a vercel.json at the project root with:
+    { "rewrites": [{ "source": "/(.*)", "destination": "/" }] }
+*/
+/*    /index.html   200
